@@ -1,0 +1,11 @@
+<div class="space stars1"></div>
+<div class="space stars2"></div>
+<div class="space stars3"></div>
+<app-navigation-bar (menuSelection)="handleMenuSelection($event)"></app-navigation-bar>
+<div class="app-wrapper">
+  <app-greeter *ngIf="(CurrentSetion== '' || CurrentSetion=='Inicio' || CurrentSetion=='Contacto' )"></app-greeter>
+  <app-habilidades *ngIf="(CurrentSetion== '' || CurrentSetion=='Inicio' || CurrentSetion=='Habilidades' )"></app-habilidades>
+  <app-projects *ngIf="(CurrentSetion== '' || CurrentSetion=='Inicio' || CurrentSetion=='Proyectos')"></app-projects>
+</div>
+
+

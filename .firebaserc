@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "personal-s": {
+      "hosting": {
+        "my-angular-project": [
+          "personal-s"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "personal-s"
+  }
+}
