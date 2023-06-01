@@ -21,7 +21,9 @@ para trabajar en el proyecto se necesita tener instalado:
 - <div style="display:flex; align-items:center; flex-direction:row;"><img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/npm-icon.svg" alt="" width="50" height="50"> <p>npm</p></div>
 
 ## Antes de inicar
-1. Clonar el repositorio
+1. Clonar el repositorio: 
+2. Ejecutar ```npm install``` para obtener las dependencias y librerías implementadas
+3. Listo
 
 ## Servidor de desarrollo
 
@@ -38,10 +40,6 @@ Ejecute `ng build` para compilar el proyecto. Los artefactos de compilación se 
 ## Ejecutando pruebas unitarias
 
 Ejecute `ng test` para ejecutar las pruebas unitarias a través de [Karma](https://karma-runner.github.io).
-
-## Ejecutar pruebas de extremo a extremo
-
-Ejecute `ng e2e` para ejecutar las pruebas de extremo a extremo a través de una plataforma de su elección. Para usar este comando, primero debe agregar un paquete que implemente capacidades de prueba de un extremo a otro.
 
 ## Más ayuda
 
